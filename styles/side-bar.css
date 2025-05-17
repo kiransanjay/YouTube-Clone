@@ -1,0 +1,21 @@
+.side-bar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    top: 55px;
+    bottom: 0px;
+    background-color: white;
+}
+
+.sidebar-label{
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.sidebar-icons{
+    height: 20px;
+    width: 20px;
+}
