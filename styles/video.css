@@ -5,6 +5,7 @@
     row-gap: 40px;
 }
 .thumbnail-div{
+    margin-bottom: 8px;
     position: relative;
 }
 .time-stamp-div{
@@ -30,7 +31,7 @@
     width: 100%;
 }
 .video-title{
-    margin-bottom: 12px; 
+    margin-bottom: 10px; 
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
