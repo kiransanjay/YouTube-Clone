@@ -1,21 +1,36 @@
 .side-bar{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     position: fixed;
     left: 0px;
     top: 55px;
     bottom: 0px;
     background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
 }
 
-.sidebar-label{
-    font-family: Roboto;
+
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sidebar-link img{
+    height:24px;
+    margin-bottom: 5px;
+}
+
+.sidebar-link  div{
+    font-family: Roboto, Arial;
     font-size: 10px;
-}
-
-.sidebar-icons{
-    height: 20px;
-    width: 20px;
 }
